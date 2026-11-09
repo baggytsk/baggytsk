@@ -14,7 +14,7 @@
 |---|---|---|---|
 | **[MINE](https://github.com/100-hours-a-week/4-team-IMYME-be)** | CS 개념을 말로 설명하면 AI가 피드백하는 음성 학습 플랫폼 · 출시 첫 주 디스콰이엇 주간 1위 | 팀장 · Backend (6인 팀, BE 2명) | AI 결과 폴링을 SSE로 바꿔, 같은 k6 시나리오에서 `/attempts` 요청 TPS 14 → 1.2 req/s, p95 165 → 21.1ms |
 | **[C.Groove](https://github.com/CGroove/CGroove-BE)** | 대학 댄스동아리 커뮤니티 · 행사 신청 플랫폼 | 개인 · Full-stack | 선착순 신청에 비관적 락 적용, 정원 10명에 50명 동시 신청 테스트(H2)로 초과 없음 확인 · 테스트 239개, 라인 커버리지 94.1% |
-| **[DPlanner](https://github.com/dpplanner/api)** | 대학 동아리방·물품 예약 서비스 (iOS·Android·웹) · 가입자 305명 | 앱 FE ([app](https://github.com/dpplanner/app), 2023.12~2024.07) → 팀이 만든 서버를 인수해 단독 운영 (2026.05~) | 접근을 잃은 계정의 DB를 옮기다 복원 시험에서 게시글 누락을 발견해 Data Pump로 바꿔 30개 테이블 이전 |
+| **[DPlanner](https://github.com/dpplanner/api)** | 대학 동아리방·물품 예약 서비스 (iOS·Android·웹) · 가입자 305명 | 앱 FE ([app](https://github.com/dpplanner/app), 2023.12 – 2024.07) → 팀이 만든 서버를 인수해 단독 운영 (2026.05 – 현재) | 접근을 잃은 계정의 DB를 옮기다 복원 시험에서 게시글 누락을 발견해 Data Pump로 바꿔 30개 테이블 이전 |
 
 <br>
 
@@ -30,6 +30,6 @@
 
 ## Activity
 
-- 카카오테크 부트캠프 3기 풀스택 (2025.09~2026.03) · AI 해커톤 최우수상 · 부하테스트 대회 8강
+- 카카오테크 부트캠프 3기 풀스택 (2025.09 – 2026.03) · AI 해커톤 최우수상 · 부하테스트 대회 8강
 - 중앙대학교 소프트웨어학부 졸업 (2026.02)
 - 매일 알고리즘 1문제 (Java) → [algorithm](https://github.com/baggytsk/algorithm)
